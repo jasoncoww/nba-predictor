@@ -13,8 +13,3 @@ AI-powered NBA game predictor built with Next.js. Uses win%, rest days, recent f
 
 ---
 
-## Sharing
-
-Once deployed, just send people your Vercel URL. No login required — they open it and start predicting.
-
-If you want to limit usage (so your API bill doesn't get out of hand), add a simple password check in `pages/api/anthropic.js` or use Vercel's built-in password protection under Project Settings → Security.
