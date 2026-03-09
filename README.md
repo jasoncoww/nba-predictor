@@ -1,41 +1,6 @@
 # 🏀 NBA Game Outcome Predictor
 
 AI-powered NBA game predictor built with Next.js. Uses win%, rest days, recent form, and live injury reports to predict game outcomes.
-
----
-
-## Deploy to Vercel (recommended — free, ~2 minutes)
-
-### 1. Get an Anthropic API key
-Go to [console.anthropic.com](https://console.anthropic.com), sign up, and create an API key.
-
-### 2. Put the code on GitHub
-- Create a new repo at [github.com/new](https://github.com/new)
-- Upload these files (drag & drop the folder, or use git)
-
-### 3. Deploy on Vercel
-- Go to [vercel.com](https://vercel.com) and sign in with GitHub
-- Click **"Add New Project"** → import your repo
-- Under **Environment Variables**, add:
-  - Key: `ANTHROPIC_API_KEY`
-  - Value: your key from step 1
-- Click **Deploy**
-
-That's it — Vercel gives you a public URL like `https://nba-predictor-yourname.vercel.app`
-
----
-
-## Run locally
-
-```bash
-npm install
-cp .env.example .env.local
-# Edit .env.local and add your ANTHROPIC_API_KEY
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000)
-
 ---
 
 ## How it works
